@@ -7,7 +7,9 @@ authors = [
     { name = "PranavBShenoy", email = "pranavbshenoy@gmail.com" }
 ]
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "pydantic>=2.14.4",
+]
 
 [project.scripts]
 ai-studio-bootcamp = "ai_studio_bootcamp:main"
@@ -15,3 +17,8 @@ ai-studio-bootcamp = "ai_studio_bootcamp:main"
 [build-system]
 requires = ["uv_build>=0.13.7,<0.14.0"]
 build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "pytest>=9.2.0",
+]
