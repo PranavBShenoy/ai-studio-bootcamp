@@ -1,0 +1,22 @@
+id,prompt_version,attempts,equipment_pred,equipment_exp,urgency_pred,urgency_exp,hospital_pred,hospital_exp,next_action_pred,next_action_exp,passed
+1,v2,1,ICU Ventilator,ICU Ventilator,critical,critical,KMC Hospital,KMC Hospital,dispatch_field_engineer,dispatch_field_engineer,True
+2,v2,1,Anesthesia Workstation,Anesthesia Workstation,critical,critical,Apollo Clinic,Apollo Clinic,dispatch_field_engineer,dispatch_field_engineer,True
+3,v2,1,Defibrillator,Defibrillator,critical,critical,District Hospital,District Hospital,dispatch_field_engineer,dispatch_field_engineer,True
+4,v2,1,Ultrasound Machine,Ultrasound Machine,high,high,null,null,dispatch_field_engineer,dispatch_field_engineer,True
+5,v2,1,Patient Monitor,Patient Monitor,high,high,St. Johns Hospital,St. Johns Hospital,dispatch_field_engineer,escalate_vendor_rma,False
+6,v2,1,Portable X-ray,Portable X-Ray Machine,high,high,Highland Medical Center,Highland Medical Center,dispatch_field_engineer,dispatch_field_engineer,False
+7,v2,1,Infusion Pump,Infusion Pump,high,medium,null,null,dispatch_field_engineer,remote_troubleshoot,False
+8,v2,2,Laser Printer,Laser Printer,medium,medium,CareWell Clinic,CareWell Clinic,remote_troubleshoot,remote_troubleshoot,True
+9,v2,1,Desktop PC,Desktop PC,medium,medium,null,null,remote_troubleshoot,remote_troubleshoot,True
+10,v2,1,ECG Machine,ECG Machine,high,medium,Sunrise Diagnostics,Sunrise Diagnostics,dispatch_field_engineer,remote_troubleshoot,False
+11,v2,1,CT Scanner,CT Scanner,low,low,Apex Hospital,Apex Hospital,schedule_preventive_maintenance,schedule_preventive_maintenance,True
+12,v2,1,Autoclave,Autoclave,low,low,null,null,schedule_preventive_maintenance,schedule_preventive_maintenance,True
+13,v2,1,BP Monitor,Blood Pressure Monitor,low,low,Mercy Hospital,Mercy Hospital,remote_troubleshoot,remote_troubleshoot,False
+14,v2,1,Oxygen Concentrator,Oxygen Concentrator,low,low,Green Valley Clinic,Green Valley Clinic,schedule_preventive_maintenance,schedule_preventive_maintenance,True
+15,v2,1,NICU Radiant Warmer,Radiant Warmer,critical,critical,Blossom Children's Hospital,Blossom Children's Hospital,dispatch_field_engineer,dispatch_field_engineer,False
+16,v2,1,Dialysis Machine,Dialysis Machine,high,high,NephroCare,NephroCare,escalate_vendor_rma,escalate_vendor_rma,True
+17,v2,2,Barcode Scanner,Barcode Scanner,medium,medium,null,null,remote_troubleshoot,remote_troubleshoot,True
+18,v2,1,CCTV NVR,CCTV NVR,medium,medium,MedPlus Pharmacy,MedPlus Pharmacy,dispatch_field_engineer,remote_troubleshoot,False
+19,v2,1,Hematology Analyzer,Hematology Analyzer,high,high,PathoLab,PathoLab,escalate_vendor_rma,escalate_vendor_rma,True
+20,v2,1,UPS,UPS,low,low,City General Hospital,City General Hospital,schedule_preventive_maintenance,schedule_preventive_maintenance,True
+SUMMARY,v2,,13/20,65.0%,,,,,,,65.0%
